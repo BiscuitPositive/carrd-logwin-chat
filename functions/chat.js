@@ -6,7 +6,7 @@ export async function handler(event) {
 
   const payload = {
     model: "gpt-4o-mini",
-    assistant_id: "asst_pJW8RveJzAPFhjMpByFP1yio",
+    assistant_id: "asst_pJW6RveJzAPfMjmPyBFP1yio",
     messages: [{ role: "user", content: message }]
   };
 
