@@ -53,7 +53,7 @@ export async function handler(event) {
       },
       body: JSON.stringify({
         model: 'gpt-4o-mini',
-        assistant_id: 'asst_pJW8RveJzAPFhjMpByFP1yio',  // your exact ID
+        assistant_id: 'asst_pJW6RveJzAPfMjmPyBFP1yio',  // your exact ID
         messages: [{ role: 'user', content: message }]
       })
     });
